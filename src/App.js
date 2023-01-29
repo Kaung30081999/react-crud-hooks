@@ -18,7 +18,18 @@ const App = () => {
 
   const [editing, setEditing] = useState(false);
 
-  const initialUser = { id: null, name: "", username: "" };
+  const initialUser = { 
+    id: null, 
+    name: "", 
+    username: "", 
+    profilepic: "",
+    country: "",
+    city: "",
+    gender: "",
+    dob: "",
+    url: "",
+    bio: ""
+  };
 
   const [currentUser, setCurrentUser] = useState(initialUser);
 
